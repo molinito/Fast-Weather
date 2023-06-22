@@ -1,91 +1,62 @@
-.App{
-  text-align: center;
-  font-size: 20px;
-}
-@media screen and (max-width: 600px) {
-  .App{
-    text-align: center;
-    font-size: 20px;
-  }
-  
-}
-
-.container{
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-@media screen and (max-width: 600px) {
-  .container{
-    margin-top: 100px;
-    margin-bottom: 100px;
-  }
-  
-}
-
-
-body{
-background-image: url("../images/clima.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-background-attachment:calc(100% - 100px);
-width: 100%;
-height: auto;
-}
-
-@media screen and (max-width: 600px) {
-  body{
-    background-attachment: calc(100% - 100px);
-  }
-  
-}
-
-
-@media screen and (max-width: 600px) {
-  .card{
-    max-width: 100%;
-  }
-  .input-group{
-    width: 100%;
-  }
-}
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .App {
   text-align: center;
-
+  font-size: 20px;
 }
 @media screen and (max-width: 600px) {
   .App {
     text-align: center;
     font-size: 20px;
   }
-  
 }
 
-
-.input-group{
-  width: 60%;
+.container {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 @media screen and (max-width: 600px) {
-  .input-group{
+  .container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
+
+body {
+  background-image: url("../images/clima.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: calc(100% - 100px);
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-attachment: calc(100% - 100px);
+  }
+}
+
+.card {
+  max-width: 60%;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    max-width: 100%;
+  }
+}
+
+.input-group {
+  width: 80%;
+}
+@media screen and (max-width: 600px) {
+  .input-group {
     width: 100%;
   }
-  
 }
-  
+
+/*
+
+
 
 .card{
   max-width: 60%;
@@ -201,9 +172,4 @@ height: auto;
     padding: 10px;
   }
   
-}
-
-
-
-
-
+} */

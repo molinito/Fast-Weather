@@ -19,9 +19,9 @@ const Form = ({newLocation}) => {
         <div className="container">
             <form onSubmit={onSubmit}>
                 <div className="input-group mb -3 mx-auto">
-                    <input type="text" className="form-control" placeholder="Ciudad" 
+                    <input type="text" className="form-control" placeholder="Ciudad" style={{fontSize: '20px'}}
                     onChange={(e) => setCity(e.target.value)} />
-                    <button className="btn btn-dark" type="submit">Buscar</button>
+                    <button className="btn btn-dark" style={{fontSize: '20px'}} type="submit">Buscar</button>
                 </div>
             </form>
         </div>

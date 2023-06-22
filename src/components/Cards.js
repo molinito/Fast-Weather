@@ -65,10 +65,10 @@ const Cards = ({ loadingData, showData, weather, forecast }) => {
           <div className="card mb-3 mx-auto" style={{ opacity: 0.7, backgroundColor: 'rgba(0, 0, 0, 0.5)', width: '100%' }}
 >
             <div className="row g-5 ">
-              <div className="row-md-4">
+              <div className="row-md-4 p-4">
                 <h3
                   className="card-title"
-                  style={{ color: "yellow", fontWeight: "bold", }}
+                  style={{ color: "yellow", fontWeight: "bold", fontSize: '24px'}}
                 >
                   {weather.name}
                 </h3>
@@ -92,8 +92,8 @@ const Cards = ({ loadingData, showData, weather, forecast }) => {
                   {weather.weather[0].description}
                 </p>
                                 </div>
-              <div className="row-md-8 p-4">
-                <div className="card-body text-wrap mt-2">
+              <div className="row-md-8 m-0">
+                <div className="card-body text-wrap mt-0">
                   <h5
                     className="card-text"
                     style={{ color: "yellow", fontWeight: "bold" }}
@@ -129,9 +129,7 @@ const Cards = ({ loadingData, showData, weather, forecast }) => {
                   </h5>
                                     </div>
                 <br />
-                <br />
-
-
+              
                 <div
                   className="row mt-4 p-3"
                   style={{ color: "yellow", fontWeight: "bold" }}

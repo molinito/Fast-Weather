@@ -6,11 +6,9 @@ import Cards from './Cards';
 
 const WeatherPanel = () => {
 
-    let urlWeather = "https://api.openweathermap.org/data/2.5/weather?appid=59df780f83cca268f5dd20564ee62f52&lang=es";
-    
+    let urlWeather = `https://api.openweathermap.org/data/2.5/weather?appid=${process.env.REACT_APP_API_KEY}&lang=es`;
     let cityUrl = "&q=";
-
-    let urlForecast = "https://api.openweathermap.org/data/2.5/forecast?appid=59df780f83cca268f5dd20564ee62f52&lang=es";
+    let urlForecast = `https://api.openweathermap.org/data/2.5/forecast?appid=${process.env.REACT_APP_API_KEY}&lang=es`;
 
     const [weather, setWeather] = useState([]);
     const [forecast, setForecast] = useState([]);
