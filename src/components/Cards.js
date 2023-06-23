@@ -68,7 +68,7 @@ const Cards = ({ loadingData, showData, weather, forecast }) => {
               <div className="row-md-4 p-4">
                 <h3
                   className="card-title"
-                  style={{ color: "yellow", fontWeight: "bold", fontSize: '24px'}}
+                  style={{ color: "yellow", fontWeight: "bold", fontSize: '36px'}}
                 >
                   {weather.name}
                 </h3>
@@ -188,7 +188,7 @@ const Cards = ({ loadingData, showData, weather, forecast }) => {
                     </div>
         </div>
       ) : (
-        <h2 className="text-danger">Introduce la Ciudad</h2>
+        <h2 className="text-danger" style={{fontSize:"36px"}}>Introduce la Ciudad</h2>
       )}
     </div>
     );
